@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi! I'm Anshul.
+Hi! I'm Devanshu.
 
 This blog documents my journey through machine learning,
 from foundational concepts to practical projects.
