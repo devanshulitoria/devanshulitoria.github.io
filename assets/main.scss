@@ -8,6 +8,32 @@
   --accent: #136653;
   --rule: #dce5e1;
   --paper: #fcfdfc;
+  --surface: #f2f6f4;
+  --code: #f0f4f2;
+  --visited: #854353;
+  color-scheme: light;
+}
+
+@mixin dark-palette {
+  --ink: #e4e9e7;
+  --muted: #a9b5b0;
+  --accent: #73d5b5;
+  --rule: #39433f;
+  --paper: #191d1b;
+  --surface: #222825;
+  --code: #262e2a;
+  --visited: #e3a7b8;
+  color-scheme: dark;
+}
+
+:root[data-theme="dark"] {
+  @include dark-palette;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    @include dark-palette;
+  }
 }
 
 body {
@@ -23,14 +49,15 @@ a {
 }
 
 a:visited {
-  color: #854353;
+  color: var(--visited);
 }
 
 a:hover {
   color: var(--ink);
 }
 
-a:focus-visible {
+a:focus-visible,
+.theme-switch:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 4px;
 }
@@ -55,6 +82,98 @@ a:focus-visible {
 
 .page-content {
   padding: 44px 0;
+}
+
+.theme-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 24px;
+}
+
+.theme-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 0 2px;
+  border: 0;
+  color: var(--muted);
+  background: transparent;
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.theme-switch[hidden] {
+  display: none;
+}
+
+.theme-switch__track {
+  box-sizing: border-box;
+  width: 40px;
+  height: 24px;
+  padding: 3px;
+  border: 1px solid var(--muted);
+  border-radius: 12px;
+  background: var(--surface);
+}
+
+.theme-switch__track::after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--muted);
+}
+
+.theme-switch[aria-checked="true"] .theme-switch__track {
+  border-color: var(--accent);
+  background: var(--accent);
+}
+
+.theme-switch[aria-checked="true"] .theme-switch__track::after {
+  transform: translateX(16px);
+  background: var(--paper);
+}
+
+.site-title,
+.site-title:visited,
+.site-nav .page-link {
+  color: var(--ink);
+}
+
+.site-nav .menu-icon > svg,
+.social-media-list svg {
+  fill: var(--muted);
+}
+
+blockquote {
+  color: var(--muted);
+  border-color: var(--rule);
+}
+
+table {
+  color: var(--ink);
+  border-color: var(--rule);
+}
+
+table th,
+table td {
+  border-color: var(--rule);
+}
+
+table th,
+table tr:nth-child(even) {
+  background: var(--surface);
+}
+
+.favorite-videos__channel {
+  color: var(--muted);
+}
+
+.favorite-videos__thumbnail {
+  background: var(--surface);
 }
 
 .home-intro {
@@ -156,8 +275,58 @@ a:focus-visible {
 
 pre,
 code {
-  background: #f0f4f2;
+  background: var(--code);
   border-color: var(--rule);
+}
+
+.highlight,
+.highlighter-rouge .highlight {
+  background: var(--code);
+}
+
+@mixin dark-syntax {
+  .highlight .c, .highlight .cm, .highlight .c1, .highlight .cs,
+  .highlight .cp, .highlight .gh, .highlight .go, .highlight .gp,
+  .highlight .gu, .highlight .w {
+    color: var(--muted);
+  }
+  .highlight .k, .highlight .kc, .highlight .kd, .highlight .kn,
+  .highlight .kp, .highlight .kr, .highlight .kt, .highlight .o,
+  .highlight .ow, .highlight .p, .highlight .nc, .highlight .nn,
+  .highlight .ni, .highlight .bp {
+    color: var(--ink);
+  }
+  .highlight .s, .highlight .s1, .highlight .s2, .highlight .sb,
+  .highlight .sc, .highlight .sd, .highlight .se, .highlight .sh,
+  .highlight .si, .highlight .sr, .highlight .ss, .highlight .sx,
+  .highlight .nf, .highlight .ne, .highlight .nt {
+    color: #ffafb5;
+  }
+  .highlight .m, .highlight .mf, .highlight .mh, .highlight .mi,
+  .highlight .mo, .highlight .il, .highlight .na, .highlight .nb,
+  .highlight .no, .highlight .nv, .highlight .vc, .highlight .vg,
+  .highlight .vi {
+    color: #83d8df;
+  }
+  .highlight .err, .highlight .gr, .highlight .gt,
+  .highlight .gd, .highlight .gd .x {
+    color: #ffb4bc;
+    background: #48262c;
+  }
+  .highlight .gi, .highlight .gi .x {
+    color: #a5e5bb;
+    background: #203d2b;
+  }
+}
+
+:root[data-theme="dark"] {
+  @include dark-syntax;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    @include dark-syntax;
+  }
 }
 
 pre {
@@ -166,7 +335,7 @@ pre {
 
 .site-footer {
   border-color: var(--rule);
-  background: #f2f6f4;
+  background: var(--surface);
 }
 
 .footer-col-wrapper {
@@ -186,5 +355,7 @@ pre {
 
   .site-nav {
     z-index: 2;
+    background: var(--paper);
+    border-color: var(--rule);
   }
 }

@@ -29,7 +29,7 @@
   aspect-ratio: 16 / 9;
   object-fit: cover;
   border-radius: 6px;
-  background: #eeeeee;
+  background: var(--surface, #eeeeee);
 }
 
 .favorite-videos__title {
@@ -41,7 +41,7 @@
 
 .favorite-videos__channel {
   margin: 0 0 6px;
-  color: #666666;
+  color: var(--muted, #666666);
   font-size: 13px;
   overflow-wrap: anywhere;
 }
