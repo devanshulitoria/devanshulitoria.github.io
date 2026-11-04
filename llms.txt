@@ -1,0 +1,35 @@
+---
+layout: null
+permalink: /llms.txt
+sitemap: false
+---
+# {{ site.title }}
+
+> {{ site.description }}
+
+Author: {{ site.author }}
+Language: English
+
+This is a personal learning blog. Posts document concepts, experiments, and implementation decisions; they are not peer-reviewed research. Refer to the linked post for its publication date, code, and context.
+
+## Main Pages
+
+- [Home]({{ '/' | absolute_url }}): Latest posts and favorite machine learning videos.
+- [About]({{ '/about/' | absolute_url }}): Author background and the scope of the blog.
+
+## Posts
+{% for post in site.posts %}
+- [{{ post.title }}]({{ post.url | absolute_url }}) ({{ post.date | date: '%Y-%m-%d' }}): {{ post.description | default: post.excerpt | strip_html | normalize_whitespace }}
+{% endfor %}
+
+## Discovery
+
+- [Sitemap]({{ '/sitemap.xml' | absolute_url }}): Indexable site URLs.
+- [RSS feed]({{ '/feed.xml' | absolute_url }}): Recent posts and publication dates.
+
+## External Video Resources
+{% for video in site.data.youtube_videos %}
+- [{{ video.title }}](https://www.youtube.com/watch?v={{ video.youtube_id }}), {{ video.channel }}{% if video.note and video.note != '' %}: {{ video.note }}{% endif %}
+{% endfor %}
+
+These videos are external resources by their respective creators, not posts authored by this blog.

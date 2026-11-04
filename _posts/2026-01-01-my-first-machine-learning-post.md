@@ -3,6 +3,8 @@ layout: post
 title: "My First Machine Learning Post"
 date: 2026-01-01
 categories: [machine-learning, getting-started]
+description: "Why I'm documenting my machine learning journey, the topics I'll explore, and a Python example of mean squared error."
+excerpt: "A starting point for my machine learning notes: practical experiments, model evaluation, and the decisions behind each project."
 ---
 
 ## Why I'm starting this blog
@@ -37,3 +39,4 @@ def mean_squared_error(actual, predicted):
         (a - p) ** 2
         for a, p in zip(actual, predicted)
     ) / len(actual)
+```

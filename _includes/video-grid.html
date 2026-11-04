@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="{{ '/assets/css/video-grid.css' | relative_url }}">
+
+<section class="favorite-videos" aria-labelledby="favorite-videos-heading">
+  <h2 id="favorite-videos-heading">Favorite Machine Learning Videos</h2>
+  <div class="favorite-videos__grid">
+    {% for video in site.data.youtube_videos %}
+    <article class="favorite-videos__card">
+      <a class="favorite-videos__link" href="https://www.youtube.com/watch?v={{ video.youtube_id | escape }}">
+        <img
+          class="favorite-videos__thumbnail"
+          src="https://i.ytimg.com/vi/{{ video.youtube_id | escape }}/hqdefault.jpg"
+          alt=""
+          width="480"
+          height="360"
+          loading="lazy"
+          decoding="async"
+        >
+        <h3 class="favorite-videos__title">{{ video.title | escape }}</h3>
+      </a>
+      <p class="favorite-videos__channel">{{ video.channel | escape }}</p>
+      {% if video.note and video.note != '' %}
+      <p class="favorite-videos__note">{{ video.note | escape }}</p>
+      {% endif %}
+    </article>
+    {% endfor %}
+  </div>
+</section>

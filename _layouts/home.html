@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<div class="home">
+  <header class="home-intro">
+    <p class="section-label">Code, experiments, and learning</p>
+    <h1>{{ page.title | escape }}</h1>
+    <div class="home-intro__body">{{ content }}</div>
+  </header>
+
+  <section class="journal" aria-labelledby="journal-heading">
+    <div class="section-heading">
+      <h2 id="journal-heading">Latest Writing</h2>
+      <a class="feed-link" href="{{ '/feed.xml' | relative_url }}">RSS feed</a>
+    </div>
+    {% if site.posts.size > 0 %}
+    <ul class="journal-list">
+      {% for post in site.posts %}
+      <li class="journal-entry">
+        <article>
+          <time class="post-meta" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: site.date_format }}</time>
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+          {% if site.show_excerpts %}
+          <div class="journal-entry__excerpt">{{ post.excerpt }}</div>
+          {% endif %}
+        </article>
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p>New notes are on the way.</p>
+    {% endif %}
+  </section>
+
+  {% include video-grid.html %}
+</div>

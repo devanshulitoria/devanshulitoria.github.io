@@ -1,9 +1,40 @@
 title: "Devanshu's Machine Learning Blog"
-description: "Notes, tutorials, and experiments in machine learning."
+description: "Practical machine learning notes, Python tutorials, project write-ups, and curated learning resources by Devanshu Litoria."
 url: "https://devanshulitoria.github.io"
 baseurl: ""
+lang: en
+locale: en_US
+author: Devanshu Litoria
+github_username: devanshulitoria
+
+social:
+  name: Devanshu Litoria
+  links:
+    - https://github.com/devanshulitoria
 
 theme: minima
 
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+show_excerpts: true
+date_format: "%B %-d, %Y"
+
 header_pages:
   - about.md
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author: Devanshu Litoria
+      comments: false
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

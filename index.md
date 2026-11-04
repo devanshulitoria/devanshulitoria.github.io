@@ -1,8 +1,9 @@
 ---
 layout: home
-title: Home
+title: Machine Learning Notes
+description: "Practical notes on machine learning, Python, model evaluation, and hands-on projects by Devanshu Litoria."
 ---
 
-Welcome to my machine-learning blog!
+I'm [Devanshu Litoria]({{ '/about/' | relative_url }}). These are my notes on learning machine learning through code, experiments, and practical projects.
 
-I share practical tutorials, project write-ups, and notes from my learning journey.
+From Python fundamentals to model evaluation, I document what I learn and the decisions behind each experiment.

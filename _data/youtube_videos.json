@@ -1,0 +1,20 @@
+[
+  {
+    "title": "But what is a neural network?",
+    "channel": "3Blue1Brown",
+    "youtube_id": "aircAruvnKk",
+    "note": "A visual introduction to how neural networks work."
+  },
+  {
+    "title": "Decision Trees, Clearly Explained!!!",
+    "channel": "StatQuest with Josh Starmer",
+    "youtube_id": "7VeUPuFGJHk",
+    "note": "An intuitive walkthrough of decision trees."
+  },
+  {
+    "title": "Intro to Large Language Models",
+    "channel": "Andrej Karpathy",
+    "youtube_id": "zjkBMFhNj_g",
+    "note": "An overview of large language models and how they are trained."
+  }
+]

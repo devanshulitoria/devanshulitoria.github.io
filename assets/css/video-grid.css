@@ -1,0 +1,53 @@
+.favorite-videos {
+  margin: 32px 0;
+}
+
+.favorite-videos__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr));
+  gap: 24px;
+}
+
+.favorite-videos__card {
+  min-width: 0;
+}
+
+.favorite-videos__link {
+  display: block;
+  border-radius: 6px;
+}
+
+.favorite-videos__link:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 4px;
+}
+
+.favorite-videos__thumbnail {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 6px;
+  background: #eeeeee;
+}
+
+.favorite-videos__title {
+  margin: 10px 0 4px;
+  font-size: 17px;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+.favorite-videos__channel {
+  margin: 0 0 6px;
+  color: #666666;
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+
+.favorite-videos__note {
+  margin: 0;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
