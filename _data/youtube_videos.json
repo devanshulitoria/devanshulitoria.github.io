@@ -1,20 +1,1083 @@
 [
-  {
-    "title": "But what is a neural network?",
-    "channel": "3Blue1Brown",
-    "youtube_id": "aircAruvnKk",
-    "note": "A visual introduction to how neural networks work."
-  },
-  {
-    "title": "Decision Trees, Clearly Explained!!!",
-    "channel": "StatQuest with Josh Starmer",
-    "youtube_id": "7VeUPuFGJHk",
-    "note": "An intuitive walkthrough of decision trees."
-  },
-  {
-    "title": "Intro to Large Language Models",
-    "channel": "Andrej Karpathy",
-    "youtube_id": "zjkBMFhNj_g",
-    "note": "An overview of large language models and how they are trained."
-  }
+    {
+        "title":  "But what is a neural network?",
+        "channel":  "3Blue1Brown",
+        "youtube_id":  "aircAruvnKk",
+        "note":  "A visual introduction to how neural networks work.",
+        "section":  "Featured"
+    },
+    {
+        "title":  "Decision Trees, Clearly Explained!!!",
+        "channel":  "StatQuest with Josh Starmer",
+        "youtube_id":  "7VeUPuFGJHk",
+        "note":  "An intuitive walkthrough of decision trees.",
+        "section":  "Featured"
+    },
+    {
+        "title":  "Intro to Large Language Models",
+        "channel":  "Andrej Karpathy",
+        "youtube_id":  "zjkBMFhNj_g",
+        "note":  "An overview of large language models and how they are trained.",
+        "section":  "Featured"
+    },
+    {
+        "title":  "Big Picture: Derivatives (Gilbert Strang)",
+        "youtube_id":  "T_I-CUOc_bk",
+        "section":  "Calculus"
+    },
+    {
+        "title":  "Gilbert Strang\u0027s Calculus: Big Picture Integral",
+        "youtube_id":  "2qxY859dzzQ",
+        "section":  "Calculus"
+    },
+    {
+        "title":  "Gilbert Strang\u0027s Calculus: Chains and the Chain Rule",
+        "youtube_id":  "yQrKXo89nHA",
+        "section":  "Calculus"
+    },
+    {
+        "title":  "Gilbert Strang\u0027s Calculus: Derivative of sin x and cos x",
+        "youtube_id":  "FtQl1gAo12E",
+        "section":  "Calculus"
+    },
+    {
+        "title":  "Gilbert Strang\u0027s Calculus: Derivatives of ln y and arcsin(y)",
+        "youtube_id":  "cRsptYEK1G4",
+        "section":  "Calculus"
+    },
+    {
+        "title":  "Differential Equations of Growth",
+        "youtube_id":  "IDo4uPyqQbQ",
+        "section":  "Calculus"
+    },
+    {
+        "title":  "Differential Equations of Motion",
+        "youtube_id":  "4PBYm3FuUNQ",
+        "section":  "Calculus"
+    },
+    {
+        "title":  "Gilbert Strang\u0027s Calculus: The Exponential Function",
+        "youtube_id":  "oo1ZZlvT2LQ",
+        "section":  "Calculus"
+    },
+    {
+        "title":  "Gilbert Strang\u0027s Calculus: Growth Rates and Log Graphs",
+        "youtube_id":  "WU1m2QQrlho",
+        "section":  "Calculus"
+    },
+    {
+        "title":  "Gilbert Strang\u0027s Calculus: Limits and Continuous Functions",
+        "youtube_id":  "kAv5pahIevE",
+        "section":  "Calculus"
+    },
+    {
+        "title":  "Gilbert Strang\u0027s Calculus: Linear Approximation and Newton\u0027s Method",
+        "youtube_id":  "U0xlKuFqCuI",
+        "section":  "Calculus"
+    },
+    {
+        "title":  "Max and Min and Second Derivative (Gilbert Strang)",
+        "youtube_id":  "tBBJ2TSTa1Q",
+        "section":  "Calculus"
+    },
+    {
+        "title":  "Gilbert Strang\u0027s Calculus: Power Series and Euler\u0027s Great Formula",
+        "youtube_id":  "N4ceWhmXxcs",
+        "section":  "Calculus"
+    },
+    {
+        "title":  "Gilbert Strang\u0027s Calculus: Product Rule and Quotient Rule",
+        "youtube_id":  "5ZpqI8zz1HM",
+        "section":  "Calculus"
+    },
+    {
+        "title":  "Gilbert Strang Calculus",
+        "youtube_id":  "LgWFurXHX8U",
+        "section":  "Calculus"
+    },
+    {
+        "title":  "Stanford EE364A Lecture 1",
+        "youtube_id":  "kV1ru-Inzl4",
+        "section":  "Convex Optimization"
+    },
+    {
+        "title":  "EE 364A (Convex Optimization): Lecture 2 - Convex Sets",
+        "youtube_id":  "2H4_7izio9Y",
+        "section":  "Convex Optimization"
+    },
+    {
+        "title":  "EE 364A (Convex Optimization): Lecture 3 - Convex Functions",
+        "youtube_id":  "1menqhfNzzo",
+        "section":  "Convex Optimization"
+    },
+    {
+        "title":  "EE 364A (Convex Optimization): Lecture 4.1 - Operations Preserving Convexity",
+        "youtube_id":  "U2HRwA7XePU",
+        "section":  "Convex Optimization"
+    },
+    {
+        "title":  "Oxford Information Theory Lecture 1",
+        "youtube_id":  "ScX2aBFyrVU",
+        "section":  "Information Theory"
+    },
+    {
+        "title":  "Oxford Information Theory Lecture 2",
+        "youtube_id":  "dnEG3vYoMow",
+        "section":  "Information Theory"
+    },
+    {
+        "title":  "mit1806-lecture1-geometry",
+        "youtube_id":  "J7DzL2_Na80",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "MIT 18.06SC Lecture 10: Four Fundamental Subspaces",
+        "youtube_id":  "nHlE7EgJFds",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "MIT 18.06SC Lecture 11: Matrix Spaces, Rank-1, and Graphs",
+        "youtube_id":  "2IdtqGM6KWU",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "Lecture 12: Graphs, Networks, and Incidence Matrices",
+        "youtube_id":  "6-wh6yvk6uc",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "Lecture 13: Quiz 1 Review",
+        "youtube_id":  "l88D4r74gtM",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "MIT 18.06SC Lecture 14: Orthogonal Vectors and Subspaces",
+        "youtube_id":  "YzZUIYRCE38",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "MIT 18.06 Lecture 15: Projection onto Subspaces",
+        "youtube_id":  "Y_Ac6KiQ1t0",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "MIT 18.06 Lecture 16: Projection Matrices and Least Squares",
+        "youtube_id":  "osh80YCg_GM",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "MIT 18.06 Lecture 17: Orthogonal Matrices and Gram-Schmidt",
+        "youtube_id":  "0MtwqhIwdrI",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "MIT 18.06 Lecture 18: Properties of Determinants",
+        "youtube_id":  "srxexLishgY",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "MIT 18.06 Lecture 19: Determinant Formulas and Cofactors",
+        "youtube_id":  "23LLB9mNJvc",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "MIT 18.06SC Lecture 2: Elimination with Matrices",
+        "youtube_id":  "QVKj3LADCnA",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "MIT 18.06SC Lecture 20: Cramer\u0027s Rule, Inverse Matrix and Volume",
+        "youtube_id":  "QNpj-gOXW9M",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "MIT 18.06 Lecture 21: Eigenvalues and Eigenvectors",
+        "youtube_id":  "cdZnhQjJu4I",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "MIT 18.06 Lecture 22: Diagonalization and Powers of A",
+        "youtube_id":  "13r9QY6cmjc",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "MIT 18.06 Lecture 23: Differential Equations and exp(At)",
+        "youtube_id":  "IZqwi0wJovM",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "MIT 18.06 Lecture 24: Markov Matrices and Fourier Series",
+        "youtube_id":  "lGGDIGizcQ0",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "MIT 18.06 Lecture 25: Symmetric Matrices and Positive Definiteness",
+        "youtube_id":  "UCc9q_cAhho",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "MIT 18.06 Lecture 26: Complex Matrices and Fast Fourier Transform",
+        "youtube_id":  "M0Sa8fLOajA",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "MIT 18.06 Lecture 27: Positive Definite Matrices and Minima",
+        "youtube_id":  "vF7eyJ2g3kU",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "MIT 18.06SC Lecture 28: Similar Matrices and Jordan Form",
+        "youtube_id":  "TSdXJw83kyA",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "Lecture 29: Singular Value Decomposition",
+        "youtube_id":  "TX_vooSnhm8",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "MIT 18.06SC Lecture 3: Matrix Multiplication and Inverse",
+        "youtube_id":  "FX4C-JpTFgY",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "Lecture 30: Linear Transformations and Their Matrices",
+        "youtube_id":  "Ts3o2I8_Mxc",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "Lecture 31: Change of Basis and Image Compression",
+        "youtube_id":  "0h43aV4aH7I",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "Lecture 33: Left and Right Inverse; Pseudo-inverse",
+        "youtube_id":  "Go2aLo7ZOlU",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "mit1806-lecture4-lu-decomposition",
+        "youtube_id":  "MsIvs_6vC38",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "MIT 18.06SC Lecture 5.1: Permutation Matrices",
+        "youtube_id":  "JibVXBElKL0",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "MIT 18.06SC Lecture 6: Column Space and Null Space",
+        "youtube_id":  "8o5Cmfpeo6g",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "MIT 18.06SC Lecture 7: Solving Ax=0 - Pivot Variables and Special Solutions",
+        "youtube_id":  "VqP2tREMvt0",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "MIT 18.06SC Lecture 8: Solving Ax=b - Complete Solution to Linear Systems",
+        "youtube_id":  "9Q1q7s1jTzU",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "MIT 18.06SC Lecture 9: Independence, Basis, and Dimension",
+        "youtube_id":  "yjBerM5jWsc",
+        "section":  "MIT 18.06SC"
+    },
+    {
+        "title":  "Lecture 11: Minimize ||x|| subject to Ax=b",
+        "youtube_id":  "MuEW9pG9oxE",
+        "section":  "MIT 18.065"
+    },
+    {
+        "title":  "Lecture 1: The Column Space of A Contains All Vectors Ax",
+        "youtube_id":  "YiqIkSHSmyc",
+        "section":  "MIT 18.065"
+    },
+    {
+        "title":  "MIT 18.065 Lecture 10: Survey of Difficulties of Ax=b",
+        "youtube_id":  "Z_5uLqcwDgM",
+        "section":  "MIT 18.065"
+    },
+    {
+        "title":  "Lecture 12: Computing Eigenvalues and Eigenvectors",
+        "youtube_id":  "d32WV1rKoVk",
+        "section":  "MIT 18.065"
+    },
+    {
+        "title":  "Lecture 13: Randomized Matrix Multiplication",
+        "youtube_id":  "z0ykhV15wLw",
+        "section":  "MIT 18.065"
+    },
+    {
+        "title":  "Lecture 14: Low Rank Changes and Their Inverse",
+        "youtube_id":  "XhSk_Lw2X_U",
+        "section":  "MIT 18.065"
+    },
+    {
+        "title":  "MIT 18.065: Lecture 16 - Derivative of Inverse and Singular Values",
+        "youtube_id":  "AdTvkFsqcDc",
+        "section":  "MIT 18.065"
+    },
+    {
+        "title":  "MIT 18.065: Lecture 17 - Rapidly Decreasing Singular Values",
+        "youtube_id":  "9BYsNpTCZGg",
+        "section":  "MIT 18.065"
+    },
+    {
+        "title":  "MIT 18.065: Lecture 18 - Counting Parameters in SVD, LU, QR, and Saddle Points",
+        "youtube_id":  "xaSL8yFgqig",
+        "section":  "MIT 18.065"
+    },
+    {
+        "title":  "MIT 18.065: Lecture 19 - Saddle Point and the Maxâ€“Min Principle",
+        "youtube_id":  "2K7CvGnebO0",
+        "section":  "MIT 18.065"
+    },
+    {
+        "title":  "MIT 18.065: Lecture 21 - Minimizing a Function",
+        "youtube_id":  "nvXRJIBOREc",
+        "section":  "MIT 18.065"
+    },
+    {
+        "title":  "MIT 18.065: Lecture 22 - Gradient Descent",
+        "youtube_id":  "AeRwohPuUHQ",
+        "section":  "MIT 18.065"
+    },
+    {
+        "title":  "MIT 18.065: Lecture 24 - Linear Programming and Two-Person Games",
+        "youtube_id":  "feb9j65Iz4w",
+        "section":  "MIT 18.065"
+    },
+    {
+        "title":  "MIT 18.065 Lecture 25: Stochastic Gradient Descent",
+        "youtube_id":  "k3AiUhwHQ28",
+        "section":  "MIT 18.065"
+    },
+    {
+        "title":  "MIT 18.065 Lecture 26: Structure of Neural Nets for Deep Learning",
+        "youtube_id":  "sx00s7nYmRM",
+        "section":  "MIT 18.065"
+    },
+    {
+        "title":  "Lecture 27: Back Propagation and Partial Gradients",
+        "youtube_id":  "lZrIPRnoGQQ",
+        "section":  "MIT 18.065"
+    },
+    {
+        "title":  "Lecture 3: Orthonormal Columns",
+        "youtube_id":  "Xa2jPbURTjQ",
+        "section":  "MIT 18.065"
+    },
+    {
+        "title":  "Lecture 30: Completing a Rank-1 Matrix, Circulants",
+        "youtube_id":  "p-bXJIa7QVI",
+        "section":  "MIT 18.065"
+    },
+    {
+        "title":  "MIT 18.065 Lecture 31",
+        "youtube_id":  "1pFv7e9xtHo",
+        "section":  "MIT 18.065"
+    },
+    {
+        "title":  "MIT 18.065 Lecture 32",
+        "youtube_id":  "hwDRfkPSXng",
+        "section":  "MIT 18.065"
+    },
+    {
+        "title":  "MIT 18.065 Lecture 34",
+        "youtube_id":  "0Qws8BuK3RQ",
+        "section":  "MIT 18.065"
+    },
+    {
+        "title":  "MIT 18.065 Lecture 35",
+        "youtube_id":  "cxTmmasBiC8",
+        "section":  "MIT 18.065"
+    },
+    {
+        "title":  "Lecture 4: Eigenvalues and Eigenvectors",
+        "youtube_id":  "k095NdrHxY4",
+        "section":  "MIT 18.065"
+    },
+    {
+        "title":  "Lecture 5: Positive Definite and Semidefinite Matrices",
+        "youtube_id":  "xsP-S7yKaRA",
+        "section":  "MIT 18.065"
+    },
+    {
+        "title":  "Lecture 6: Singular Value Decomposition (SVD)",
+        "youtube_id":  "rYz83XPxiZo",
+        "section":  "MIT 18.065"
+    },
+    {
+        "title":  "MIT 18.065 Lecture 7: Eckart-Young Theorem - The Closest Rank k Matrix",
+        "youtube_id":  "Y4f7K9XF04k",
+        "section":  "MIT 18.065"
+    },
+    {
+        "title":  "Lecture 8: Norms of Vectors and Matrices",
+        "youtube_id":  "NcPUI7aPFhA",
+        "section":  "MIT 18.065"
+    },
+    {
+        "title":  "MIT 6.041 Probability: Bernoulli Process",
+        "youtube_id":  "gMTiAeE0NCw",
+        "section":  "Probability"
+    },
+    {
+        "title":  "MIT 6.041 Probability: Conditioning and Bayes\u0027 Rule",
+        "youtube_id":  "TluTv5V0RmE",
+        "section":  "Probability"
+    },
+    {
+        "title":  "MIT 6.041 Probability: Continuous Bayes\u0027 Rule and Derived Distributions",
+        "youtube_id":  "H_k1w3cfny8",
+        "section":  "Probability"
+    },
+    {
+        "title":  "MIT 6.041 Probability: Continuous Random Variables",
+        "youtube_id":  "mHfn_7ym6to",
+        "section":  "Probability"
+    },
+    {
+        "title":  "MIT 6.041 Probability Counting",
+        "youtube_id":  "6oV3pKLgW2I",
+        "section":  "Probability"
+    },
+    {
+        "title":  "MIT 6.041 Probability: Derived Distributions and Covariance",
+        "youtube_id":  "l4NoMKEHQwM",
+        "section":  "Probability"
+    },
+    {
+        "title":  "MIT 6.041 Probability: Discrete Random Variables I",
+        "youtube_id":  "3MOahpLxj6A",
+        "section":  "Probability"
+    },
+    {
+        "title":  "MIT 6.041 Probability: Discrete Random Variables II",
+        "youtube_id":  "-qCEoqpwjf4",
+        "section":  "Probability"
+    },
+    {
+        "title":  "MIT 6.041 Probability: Discrete Random Variables III",
+        "youtube_id":  "EObHWIEKGjA",
+        "section":  "Probability"
+    },
+    {
+        "title":  "MIT 6.041 Probability: Independence",
+        "youtube_id":  "19Ql_Q3l0GA",
+        "section":  "Probability"
+    },
+    {
+        "title":  "MIT 6.041 Probability: Iterated Expectations",
+        "youtube_id":  "P7a4bjE6Crk",
+        "section":  "Probability"
+    },
+    {
+        "title":  "MIT 6.041 Lecture 16: Markov Chains I â€” John Tsitsiklis",
+        "youtube_id":  "IkbkEtOOC1Y",
+        "section":  "Probability"
+    },
+    {
+        "title":  "MIT 6.041 Lecture 17: Markov Chains II â€” John Tsitsiklis",
+        "youtube_id":  "ZulMqrvP-Pk",
+        "section":  "Probability"
+    },
+    {
+        "title":  "MIT 6.041 Lecture 18: Markov Chains III â€” John Tsitsiklis",
+        "youtube_id":  "HIMxdWDLEK8",
+        "section":  "Probability"
+    },
+    {
+        "title":  "20. Central Limit Theorem",
+        "youtube_id":  "Tx7zzD4aeiA",
+        "section":  "Probability"
+    },
+    {
+        "title":  "21. Bayesian Statistical Inference I",
+        "youtube_id":  "1jDBM9UM9xk",
+        "section":  "Probability"
+    },
+    {
+        "title":  "22. Bayesian Statistical Inference II",
+        "youtube_id":  "XtNXQJkgkhI",
+        "section":  "Probability"
+    },
+    {
+        "title":  "Lecture 23 â€” official recording",
+        "youtube_id":  "4UJc0S8APm4",
+        "section":  "Probability"
+    },
+    {
+        "title":  "24. Classical Statistical Inference II",
+        "youtube_id":  "tBUHRpFZy0s",
+        "section":  "Probability"
+    },
+    {
+        "title":  "A Test Can Fail to Reject a Model That Is Wrong",
+        "youtube_id":  "rYefUsYuEp0",
+        "section":  "Probability"
+    },
+    {
+        "title":  "MIT 6.041 Probability: Multiple Continuous Random Variables",
+        "youtube_id":  "CadZXGNauY0",
+        "section":  "Probability"
+    },
+    {
+        "title":  "MIT 6.041 Probability: Poisson Process I",
+        "youtube_id":  "jsqSScywvMc",
+        "section":  "Probability"
+    },
+    {
+        "title":  "MIT 6.041 Probability: Poisson Process II",
+        "youtube_id":  "XsYXACeIklU",
+        "section":  "Probability"
+    },
+    {
+        "title":  "MIT 6.041 Probability",
+        "youtube_id":  "j9WZyLZCBzs",
+        "section":  "Probability"
+    },
+    {
+        "title":  "MIT 6.874 Lecture 14",
+        "youtube_id":  "r-c6uJcsCdg",
+        "section":  "Biology"
+    },
+    {
+        "title":  "A Cell Map Depends on What You Preserve",
+        "youtube_id":  "0byf2OF6AT0",
+        "section":  "Biology"
+    },
+    {
+        "title":  "From eQTL Association to Causal Evidence",
+        "youtube_id":  "8tfTSLvQvsw",
+        "section":  "Biology"
+    },
+    {
+        "title":  "What Can a Partial Molecular Measurement Tell Us?",
+        "youtube_id":  "6ArtsTQ0eiM",
+        "section":  "Biology"
+    },
+    {
+        "title":  "What a Biological Graph Lets a Model Learn",
+        "youtube_id":  "mv2Df-_p7EQ",
+        "section":  "Biology"
+    },
+    {
+        "title":  "From a GWAS Signal to a Testable Mechanism",
+        "youtube_id":  "j3l1RpBimjU",
+        "section":  "Biology"
+    },
+    {
+        "title":  "What a Genomic Model Learns Depends on Its Target",
+        "youtube_id":  "5usrA2yWQjw",
+        "section":  "Biology"
+    },
+    {
+        "title":  "Lecture 8 recording: Deep Learning for Regulatory Genomics",
+        "youtube_id":  "iHOgKx1mqEw",
+        "section":  "Biology"
+    },
+    {
+        "title":  "From Single-Cell Counts to Biological Claims",
+        "youtube_id":  "NNOkdgE4jNM",
+        "section":  "Biology"
+    },
+    {
+        "title":  "Percy Liang\u0027s opening CS336 lecture",
+        "youtube_id":  "JuoVZkPBiKk",
+        "section":  "CS336"
+    },
+    {
+        "title":  "Percy Liang\u0027s second CS336 lecture",
+        "youtube_id":  "kuYAsz7zspQ",
+        "section":  "CS336"
+    },
+    {
+        "title":  "Tatsunori Hashimoto\u0027s third CS336 lecture",
+        "youtube_id":  "lVynu4bo1rY",
+        "section":  "CS336"
+    },
+    {
+        "title":  "Lecture 4 of Stanford CS336, Spring 2026",
+        "youtube_id":  "cKSwj_qZ8Jg",
+        "section":  "CS336"
+    },
+    {
+        "title":  "Stanford CS336 Lecture 5",
+        "youtube_id":  "izZba4UA7iY",
+        "section":  "CS336"
+    },
+    {
+        "title":  "Official recording",
+        "youtube_id":  "xnDHaNUvHBg",
+        "section":  "CS336"
+    },
+    {
+        "title":  "Parallel Training Starts with Deciding What Moves",
+        "youtube_id":  "SzpOcwdIL0Y",
+        "section":  "CS336"
+    },
+    {
+        "title":  "Sharding a Model Changes When Memory Is Needed",
+        "youtube_id":  "6-cXp-aOmdg",
+        "section":  "CS336"
+    },
+    {
+        "title":  "A Compute Budget Is a Choice Between Parameters and Tokens",
+        "youtube_id":  "Q15rhEWZPQ4",
+        "section":  "CS336"
+    },
+    {
+        "title":  "Inference Gets Faster When Less State Has to Move",
+        "youtube_id":  "EfM546A79aM",
+        "section":  "CS336"
+    },
+    {
+        "title":  "Scaling a Language Model Means Scaling Its Training Recipe",
+        "youtube_id":  "vTfEyOyzV9E",
+        "section":  "CS336"
+    },
+    {
+        "title":  "An Evaluation Score Comes with a Protocol",
+        "youtube_id":  "JpAxdTWQJxM",
+        "section":  "CS336"
+    },
+    {
+        "title":  "Official Stanford Online lecture video",
+        "youtube_id":  "-qm0ln33G24",
+        "section":  "CS336"
+    },
+    {
+        "title":  "A Data Mixture Is Also a Repetition Schedule",
+        "youtube_id":  "5sxHosTLPF8",
+        "section":  "CS336"
+    },
+    {
+        "title":  "CS336 Lecture 15",
+        "youtube_id":  "2oH6PWPrYFo",
+        "section":  "CS336"
+    },
+    {
+        "title":  "Stanford CS336 Spring 2026 Lecture 16",
+        "youtube_id":  "dIFAi87Ws4E",
+        "section":  "CS336"
+    },
+    {
+        "title":  "What a Visual Token Keepsâ€”and What It Costs",
+        "youtube_id":  "26FtD08ZpOU",
+        "section":  "CS336"
+    },
+    {
+        "title":  "2022 public recording: Lecture 11 â€” Hardware Acceleration",
+        "youtube_id":  "es6s6T1bTtI",
+        "section":  "DLSys"
+    },
+    {
+        "title":  "CMU DLSys Lecture 11: Convolutional Networks",
+        "youtube_id":  "-5RPPjn0hPg",
+        "section":  "DLSys"
+    },
+    {
+        "title":  "CMU DLSys Lecture 12: GPU Acceleration",
+        "youtube_id":  "jYCxVirq4d0",
+        "section":  "DLSys"
+    },
+    {
+        "title":  "CMU DLSys Lecture 13: Hardware Acceleration Implementation",
+        "youtube_id":  "XdhUZRXA7fg",
+        "section":  "DLSys"
+    },
+    {
+        "title":  "CMU DLSys Lecture 14: Convolutional Network Implementation",
+        "youtube_id":  "7kclgMIcMq0",
+        "section":  "DLSys"
+    },
+    {
+        "title":  "Official public recording",
+        "youtube_id":  "aI47BqLYahc",
+        "section":  "DLSys"
+    },
+    {
+        "title":  "An LSTM Batch Is a Schedule, Not Just a Shape",
+        "youtube_id":  "q12VPh-bK7k",
+        "section":  "DLSys"
+    },
+    {
+        "title":  "CMU Deep Learning Systems lecture on Transformers and attention",
+        "youtube_id":  "IFKRf-BAqZo",
+        "section":  "DLSys"
+    },
+    {
+        "title":  "2022 recording",
+        "youtube_id":  "OzFmKdAHJn0",
+        "section":  "DLSys"
+    },
+    {
+        "title":  "CMU DLSys Lecture 2: ML Refresher / Softmax Regression",
+        "youtube_id":  "MlivXhZFbNA",
+        "section":  "DLSys"
+    },
+    {
+        "title":  "CMU DLSys Lecture 3: Manual Neural Networks",
+        "youtube_id":  "OyrqSYJs7NQ",
+        "section":  "DLSys"
+    },
+    {
+        "title":  "CMU DLSys Lecture 3 Part II: Manual Neural Networks",
+        "youtube_id":  "JLg1HkzDsKI",
+        "section":  "DLSys"
+    },
+    {
+        "title":  "CMU DLSys Lecture 4: Automatic Differentiation",
+        "youtube_id":  "56WUlMEeAuA",
+        "section":  "DLSys"
+    },
+    {
+        "title":  "CMU DLSys Lecture 5: Auto Differentiation Implementation",
+        "youtube_id":  "cNADlHfHQHg",
+        "section":  "DLSys"
+    },
+    {
+        "title":  "CMU Deep Learning Systems â€” Lecture 6: Optimization and Initialization",
+        "youtube_id":  "CukpVt-1PA4",
+        "section":  "DLSys"
+    },
+    {
+        "title":  "CMU Deep Learning Systems â€” Lecture 7: Neural Network Library Abstractions",
+        "youtube_id":  "fzKNkS_5E6U",
+        "section":  "DLSys"
+    },
+    {
+        "title":  "CMU Deep Learning Systems â€” Lecture 8: Normalization, Dropout, and Model State",
+        "youtube_id":  "ky7qiKyZmnE",
+        "section":  "DLSys"
+    },
+    {
+        "title":  "2022 recording: Neural Network Library Implementation",
+        "youtube_id":  "uB81vGRrH0c",
+        "section":  "DLSys"
+    },
+    {
+        "title":  "Efficient AI Lecture 1: Introduction",
+        "youtube_id":  "RgUl6BlyaF4",
+        "section":  "HW-SW-codesign"
+    },
+    {
+        "title":  "Efficient AI Lecture 3: Pruning and Sparsity (Part 1)",
+        "youtube_id":  "EjsB0WgIfUM",
+        "section":  "HW-SW-codesign"
+    },
+    {
+        "title":  "Efficient AI Lecture 4: Pruning and Sparsity (Part II)",
+        "youtube_id":  "kgcvCs_1rzY",
+        "section":  "HW-SW-codesign"
+    },
+    {
+        "title":  "Efficient AI Lecture 5: Quantization (Part I)",
+        "youtube_id":  "RP23-dRVDWM",
+        "section":  "HW-SW-codesign"
+    },
+    {
+        "title":  "Efficient AI Lecture 6",
+        "youtube_id":  "kjHuIzQ54v4",
+        "section":  "HW-SW-codesign"
+    },
+    {
+        "title":  "Efficient AI Lecture 7",
+        "youtube_id":  "_Pflki9XOXE",
+        "section":  "HW-SW-codesign"
+    },
+    {
+        "title":  "Efficient AI Lecture 8",
+        "youtube_id":  "L07-eVmSVGY",
+        "section":  "HW-SW-codesign"
+    },
+    {
+        "title":  "Efficient AI Lecture 9",
+        "youtube_id":  "-UmiOFLzG1o",
+        "section":  "HW-SW-codesign"
+    },
+    {
+        "title":  "Efficient AI Lecture 10",
+        "youtube_id":  "ePytVBpjxJA",
+        "section":  "HW-SW-codesign"
+    },
+    {
+        "title":  "Efficient AI Lecture 11",
+        "youtube_id":  "qSsQifiHDU4",
+        "section":  "HW-SW-codesign"
+    },
+    {
+        "title":  "Efficient AI Lecture 12",
+        "youtube_id":  "6__gyzZxZ4k",
+        "section":  "HW-SW-codesign"
+    },
+    {
+        "title":  "Efficient AI Lecture 13: LLM Deployment Techniques",
+        "youtube_id":  "7g5tL2stswo",
+        "section":  "HW-SW-codesign"
+    },
+    {
+        "title":  "Efficient AI Lecture 14: LLM Post-Training",
+        "youtube_id":  "udw5TxtbmLI",
+        "section":  "HW-SW-codesign"
+    },
+    {
+        "title":  "Efficient AI Lecture 15: Long-Context LLM",
+        "youtube_id":  "D3NlVsFod8w",
+        "section":  "HW-SW-codesign"
+    },
+    {
+        "title":  "Efficient AI Lecture 16: Vision Transformer",
+        "youtube_id":  "C_U19CeStV4",
+        "section":  "HW-SW-codesign"
+    },
+    {
+        "title":  "Efficient AI Lecture 17: GAN, Video, Point Cloud",
+        "youtube_id":  "g24LzAIZbTA",
+        "section":  "HW-SW-codesign"
+    },
+    {
+        "title":  "Efficient AI Lecture 18: Diffusion Models",
+        "youtube_id":  "LK57PyOJWYk",
+        "section":  "HW-SW-codesign"
+    },
+    {
+        "title":  "Efficient AI Lecture 19: Distributed Training Part 1",
+        "youtube_id":  "tiAZUme2ST0",
+        "section":  "HW-SW-codesign"
+    },
+    {
+        "title":  "Efficient AI Lecture 20: Distributed Training Part 2",
+        "youtube_id":  "jb91nEH2g_0",
+        "section":  "HW-SW-codesign"
+    },
+    {
+        "title":  "Efficient AI Lecture 22: Quantum Machine Learning I",
+        "youtube_id":  "Ce0T48-c6XI",
+        "section":  "HW-SW-codesign"
+    },
+    {
+        "title":  "Introducing Flax NNX",
+        "youtube_id":  "Autf6AUoQMY",
+        "section":  "JAX"
+    },
+    {
+        "title":  "Flax NNX RNGs",
+        "youtube_id":  "QSyV5K5ovoA",
+        "section":  "JAX"
+    },
+    {
+        "title":  "Flax NNX training",
+        "youtube_id":  "XNMQAmkgCm4",
+        "section":  "JAX"
+    },
+    {
+        "title":  "JAX AI Stack",
+        "youtube_id":  "1X4GW2mtSXA",
+        "section":  "JAX"
+    },
+    {
+        "title":  "JAX NumPy",
+        "youtube_id":  "kue4fzBQkVI",
+        "section":  "JAX"
+    },
+    {
+        "title":  "JAX Parallelism",
+        "youtube_id":  "srxiQeuopVY",
+        "section":  "JAX"
+    },
+    {
+        "title":  "Scaling Up with JAX",
+        "youtube_id":  "tBco9ScFG_k",
+        "section":  "JAX"
+    },
+    {
+        "title":  "JAX Distributed Training",
+        "youtube_id":  "msUpldpUn2k",
+        "section":  "JAX"
+    },
+    {
+        "title":  "JAX Sharding and Parallelism",
+        "youtube_id":  "KM3HYK7cBtE",
+        "section":  "JAX"
+    },
+    {
+        "title":  "A Stronger Statement Can Make the Proof Easier",
+        "youtube_id":  "IHc0TEMrEdY",
+        "section":  "LLM-Agents"
+    },
+    {
+        "title":  "Berkeley Lecture 10 recording",
+        "youtube_id":  "Gy5Nm17l9oo",
+        "section":  "LLM-Agents"
+    },
+    {
+        "title":  "AlphaProof: When Reinforcement Learning Meets Formal Mathematics",
+        "youtube_id":  "3gaEMscOMAU",
+        "section":  "LLM-Agents"
+    },
+    {
+        "title":  "Coding Agents and AI for Vulnerability Detection",
+        "youtube_id":  "JCk6qJtaCSU",
+        "section":  "LLM-Agents"
+    },
+    {
+        "title":  "Inference-Time Techniques for LLM Reasoning",
+        "youtube_id":  "g0Dwtf3BH-0",
+        "section":  "LLM-Agents"
+    },
+    {
+        "title":  "A Verified Proof Can Still Answer the Wrong Question",
+        "youtube_id":  "cLhWEyMQ4mQ",
+        "section":  "LLM-Agents"
+    },
+    {
+        "title":  "Learning to Self-Improve and Reason with LLMs",
+        "youtube_id":  "_MNlLhU33H0",
+        "section":  "LLM-Agents"
+    },
+    {
+        "title":  "Multimodal Agents: From Perception to Action",
+        "youtube_id":  "n__Tim8K2IY",
+        "section":  "LLM-Agents"
+    },
+    {
+        "title":  "Multimodal Autonomous AI Agents",
+        "youtube_id":  "RPINOYM12RU",
+        "section":  "LLM-Agents"
+    },
+    {
+        "title":  "Open Training Recipes: LLM Reasoning",
+        "youtube_id":  "cMiu3A7YBks",
+        "section":  "LLM-Agents"
+    },
+    {
+        "title":  "On Memory, Reasoning, and Planning of Language Agents",
+        "youtube_id":  "zvI4UN2_i-w",
+        "section":  "LLM-Agents"
+    },
+    {
+        "title":  "An Agent\u0027s Reasoning Should Not Grant Its Permissions",
+        "youtube_id":  "ti6yPE2VPZc",
+        "section":  "LLM-Agents"
+    },
+    {
+        "title":  "CMU Advanced NLP Lecture 1: Introduction and Fundamentals",
+        "youtube_id":  "C-U1FtkubmQ",
+        "section":  "NLP"
+    },
+    {
+        "title":  "CMU Advanced NLP Lecture 16: Reinforcement Learning for LLMs",
+        "youtube_id":  "eEssbb3E98s",
+        "section":  "NLP"
+    },
+    {
+        "title":  "CMU Advanced NLP Lecture 2: Learned Representation",
+        "youtube_id":  "Q-xjR1qspD4",
+        "section":  "NLP"
+    },
+    {
+        "title":  "Counting, Cross-Entropy, and the Probability of a Sentence",
+        "youtube_id":  "wr7Yzj5M_HA",
+        "section":  "NLP"
+    },
+    {
+        "title":  "CMU Advanced NLP Lecture 9: Decoding Algorithms",
+        "youtube_id":  "0NxTw_G1jYs",
+        "section":  "NLP"
+    },
+    {
+        "title":  "CMU Advanced NLP Reinforcement Learning",
+        "youtube_id":  "disWB7qwcOk",
+        "section":  "RL"
+    },
+    {
+        "title":  "David Silver Reinforcement Learning Lecture 1",
+        "youtube_id":  "2pWv7GOvuf0",
+        "section":  "RL"
+    },
+    {
+        "title":  "David Silver Reinforcement Learning Lecture 10",
+        "youtube_id":  "kZ_AUmFcZtk",
+        "section":  "RL"
+    },
+    {
+        "title":  "David Silver Reinforcement Learning Lecture 2",
+        "youtube_id":  "lfHX2hHRMVQ",
+        "section":  "RL"
+    },
+    {
+        "title":  "David Silver Reinforcement Learning Lecture 3",
+        "youtube_id":  "Nd1-UUMVfz4",
+        "section":  "RL"
+    },
+    {
+        "title":  "David Silver Reinforcement Learning Lecture 4",
+        "youtube_id":  "PnHCvfgC_ZA",
+        "section":  "RL"
+    },
+    {
+        "title":  "David Silver Reinforcement Learning Lecture 5",
+        "youtube_id":  "0g4j2k_Ggc4",
+        "section":  "RL"
+    },
+    {
+        "title":  "David Silver Reinforcement Learning Lecture 6",
+        "youtube_id":  "UoPei5o4fps",
+        "section":  "RL"
+    },
+    {
+        "title":  "David Silver Reinforcement Learning Lecture 7",
+        "youtube_id":  "KHZVXao4qXs",
+        "section":  "RL"
+    },
+    {
+        "title":  "David Silver Reinforcement Learning Lecture 8",
+        "youtube_id":  "ItMutbeOHtc",
+        "section":  "RL"
+    },
+    {
+        "title":  "David Silver Reinforcement Learning Lecture 9",
+        "youtube_id":  "sGuiWX07sKw",
+        "section":  "RL"
+    },
+    {
+        "title":  "Goodfellow Deep Learning â€” Chapter 8.2: Challenges in Deep Learning Optimization",
+        "youtube_id":  "ZlcQ8xHwx0Y",
+        "section":  "Machine Learning"
+    },
+    {
+        "title":  "From Zero to Quantum",
+        "youtube_id":  "vSFv_i_FAXg",
+        "section":  "Quantum Machine Learning"
+    },
+    {
+        "title":  "Qiskit Lesson 1",
+        "youtube_id":  "3-c4xJa7Flk",
+        "section":  "Quantum Machine Learning"
+    },
+    {
+        "title":  "Qiskit Lesson 2",
+        "youtube_id":  "DfZZS8Spe7U",
+        "section":  "Quantum Machine Learning"
+    },
+    {
+        "title":  "The Math Behind Quantum Entanglement",
+        "youtube_id":  "lKFElrwEZrU",
+        "section":  "Quantum Machine Learning"
+    },
+    {
+        "title":  "Your First Quantum Experiment",
+        "youtube_id":  "kniiVC538nY",
+        "section":  "Quantum Machine Learning"
+    },
+    {
+        "title":  "Getting and Evaluating Startup Ideas",
+        "youtube_id":  "Th8JoIan4dg",
+        "section":  "Startups"
+    }
 ]
